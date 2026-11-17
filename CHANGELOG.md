@@ -11,10 +11,16 @@ See [`docs/versioning.md`](docs/versioning.md) for what the numbers mean and
 
 ## Unreleased
 
-## v1.0.1 - 2026-11-17
+## v1.0.2 - 2026-11-17
 
 The GitHub organization FreshLabDev is now asterfield-dev, and the bot moves
 with it. Nothing a person sees in Telegram changes.
+
+### Security
+
+- Built with Go 1.26.11, which fixes GO-2026-6859 in `net/http`.
+  `govulncheck` finds the bot reaching it through its HTTP client and health
+  server.
 
 ### Changed
 
@@ -34,6 +40,8 @@ with it. Nothing a person sees in Telegram changes.
 - Released as a stable patch without a pre-release first, at the owner's
   request: the change is the organization rename and the tg upgrade, checked
   by the full test suite, not by a run on a test bot.
+- `v1.0.1` was tagged but never published: its vulnerability scan stopped
+  the release on GO-2026-6859. This version is that one plus the Go update.
 
 ## v1.0.0 - 2026-10-22
 
