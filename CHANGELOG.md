@@ -11,6 +11,30 @@ See [`docs/versioning.md`](docs/versioning.md) for what the numbers mean and
 
 ## Unreleased
 
+## v1.0.1 - 2026-11-17
+
+The GitHub organization FreshLabDev is now asterfield-dev, and the bot moves
+with it. Nothing a person sees in Telegram changes.
+
+### Changed
+
+- **Images are published as `ghcr.io/asterfield-dev/quoto`.** The organization
+  was renamed, and GitHub Container Registry does not redirect the old name:
+  `ghcr.io/freshlabdev/quoto` answers 403. Point the deployment's image at the
+  new path; every earlier digest is there under it too.
+- tg moves from `v0.1.1-alpha.1` to `v0.4.0-alpha.2`, whose module path is
+  `github.com/asterfield-dev/tg`. A press on a button under an inline message
+  now arrives without a message; quoto sends none, so such a press only stops
+  the spinner.
+- Links, the module path and the docs point at `github.com/asterfield-dev`.
+  Old links still redirect.
+
+### Known Limitations
+
+- Released as a stable patch without a pre-release first, at the owner's
+  request: the change is the organization rename and the tg upgrade, checked
+  by the full test suite, not by a run on a test bot.
+
 ## v1.0.0 - 2026-10-22
 
 Quoto now runs on Go. Groups get the same daily quote; the service behind it is
@@ -497,7 +521,7 @@ it was the only bot in the family to lack.
 - **The agreement is signed.** The italic `doc_footer` glued to the bottom is
   replaced by a signature section that is part of the document: agreement
   version (`1.0`), effective date (`2026-09-09`, ISO 8601 so it reads the same
-  in every locale), operator (`FreshLabDev`) and contact (`@amtiyo`).
+  in every locale), operator (`Asterfield`) and contact (`@amtiyo`).
 - `TELEGRAM_BOT_API_BASE_URL`, **an operator-facing setting**: the self-hosted
   Bot API server to run against. Empty keeps api.telegram.org, which has no
   `sendRichMessage` and drops the agreement to HTML. Quoto had no way to be
