@@ -11,7 +11,7 @@ import (
 	"testing"
 	"unicode/utf8"
 
-	"github.com/FreshLabDev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/domain"
 )
 
 // payloadCase is one entry of testdata/payload_cases.json: the dict shape

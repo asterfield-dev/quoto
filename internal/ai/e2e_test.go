@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FreshLabDev/quoto/internal/audit"
-	"github.com/FreshLabDev/quoto/internal/claude"
-	"github.com/FreshLabDev/quoto/internal/domain"
-	"github.com/FreshLabDev/quoto/internal/openrouter"
+	"github.com/asterfield-dev/quoto/internal/audit"
+	"github.com/asterfield-dev/quoto/internal/claude"
+	"github.com/asterfield-dev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/openrouter"
 )
 
 // These tests build the service with New and the real clients and point them at

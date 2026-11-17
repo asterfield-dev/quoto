@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FreshLabDev/quoto/internal/domain"
-	"github.com/FreshLabDev/quoto/internal/i18n"
+	"github.com/asterfield-dev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/i18n"
 )
 
 func golden(t *testing.T, name string) string {

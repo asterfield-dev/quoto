@@ -8,7 +8,7 @@ import (
 
 	"github.com/jackc/pgx/v5"
 
-	"github.com/FreshLabDev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/domain"
 )
 
 // touch calls core.touch on tx. Strings are trimmed and an empty result goes in

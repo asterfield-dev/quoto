@@ -5,8 +5,8 @@ package menu
 import (
 	"strconv"
 
-	"github.com/FreshLabDev/quoto/internal/domain"
-	"github.com/FreshLabDev/quoto/internal/i18n"
+	"github.com/asterfield-dev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/i18n"
 )
 
 var medals = []string{"🥇", "🥈", "🥉"}

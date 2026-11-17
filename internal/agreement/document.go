@@ -7,12 +7,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/FreshLabDev/tg"
+	"github.com/asterfield-dev/tg"
 
-	"github.com/FreshLabDev/quoto/internal/buildinfo"
-	"github.com/FreshLabDev/quoto/internal/domain"
-	"github.com/FreshLabDev/quoto/internal/i18n"
-	"github.com/FreshLabDev/quoto/internal/menu"
+	"github.com/asterfield-dev/quoto/internal/buildinfo"
+	"github.com/asterfield-dev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/i18n"
+	"github.com/asterfield-dev/quoto/internal/menu"
 )
 
 // EffectiveDate is when this text started applying. ISO 8601, because a date

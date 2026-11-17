@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FreshLabDev/quoto/internal/agreement"
-	"github.com/FreshLabDev/quoto/internal/domain"
-	"github.com/FreshLabDev/quoto/internal/i18n"
-	"github.com/FreshLabDev/quoto/internal/menu"
+	"github.com/asterfield-dev/quoto/internal/agreement"
+	"github.com/asterfield-dev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/i18n"
+	"github.com/asterfield-dev/quoto/internal/menu"
 )
 
 func hasData(data []string, prefix string) bool {

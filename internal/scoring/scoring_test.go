@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FreshLabDev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/domain"
 )
 
 // msg builds a stored text message the way tests/test_scoring.py::_message

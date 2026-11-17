@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/FreshLabDev/tg"
+	"github.com/asterfield-dev/tg"
 
-	"github.com/FreshLabDev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/domain"
 )
 
 // sourceFromMessage reads the file a message carries, in the order the Python

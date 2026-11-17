@@ -18,8 +18,8 @@ import (
 
 	"github.com/jackc/pgx/v5/pgxpool"
 
-	"github.com/FreshLabDev/quoto/internal/db"
-	"github.com/FreshLabDev/quoto/migrations"
+	"github.com/asterfield-dev/quoto/internal/db"
+	"github.com/asterfield-dev/quoto/migrations"
 )
 
 //go:embed core_stub.sql

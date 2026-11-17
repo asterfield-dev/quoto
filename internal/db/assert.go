@@ -2,7 +2,7 @@
 
 package db
 
-import "github.com/FreshLabDev/quoto/internal/domain"
+import "github.com/asterfield-dev/quoto/internal/domain"
 
 // Store is the one implementation of every shared port.
 var (

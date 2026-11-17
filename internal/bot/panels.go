@@ -8,13 +8,13 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/FreshLabDev/tg"
+	"github.com/asterfield-dev/tg"
 
-	"github.com/FreshLabDev/quoto/internal/deeplink"
-	"github.com/FreshLabDev/quoto/internal/domain"
-	"github.com/FreshLabDev/quoto/internal/i18n"
-	"github.com/FreshLabDev/quoto/internal/menu"
-	"github.com/FreshLabDev/quoto/internal/telegram"
+	"github.com/asterfield-dev/quoto/internal/deeplink"
+	"github.com/asterfield-dev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/i18n"
+	"github.com/asterfield-dev/quoto/internal/menu"
+	"github.com/asterfield-dev/quoto/internal/telegram"
 )
 
 func sendTo(chatID int64, thread int, text string, markup *tg.InlineKeyboardMarkup) telegram.SendParams {

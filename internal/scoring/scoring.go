@@ -11,7 +11,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/FreshLabDev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/domain"
 )
 
 // MaxContext is the most messages a quote's context holds.

@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/FreshLabDev/quoto/internal/claude"
-	"github.com/FreshLabDev/quoto/internal/domain"
-	"github.com/FreshLabDev/quoto/internal/openrouter"
+	"github.com/asterfield-dev/quoto/internal/claude"
+	"github.com/asterfield-dev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/openrouter"
 )
 
 // responseError is a model's answer that cannot be used: empty, declined, not a

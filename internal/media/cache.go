@@ -5,7 +5,7 @@ package media
 import (
 	"context"
 
-	"github.com/FreshLabDev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/domain"
 )
 
 // The cache is searched in a fixed order, the first hit wins: Telegram's stable

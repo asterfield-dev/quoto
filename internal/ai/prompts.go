@@ -7,7 +7,7 @@ import (
 	"encoding/hex"
 	"strings"
 
-	"github.com/FreshLabDev/quoto/internal/i18n"
+	"github.com/asterfield-dev/quoto/internal/i18n"
 )
 
 // The prompts are byte-for-byte the Python ones (doc section 6, "Prompts"): the

@@ -19,11 +19,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/FreshLabDev/tg"
+	"github.com/asterfield-dev/tg"
 
-	"github.com/FreshLabDev/quoto/internal/deeplink"
-	"github.com/FreshLabDev/quoto/internal/domain"
-	"github.com/FreshLabDev/quoto/internal/telegram"
+	"github.com/asterfield-dev/quoto/internal/deeplink"
+	"github.com/asterfield-dev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/telegram"
 )
 
 // AllowedUpdates is what cmd/bot passes to tg.WithAllowedUpdates. Telegram keeps

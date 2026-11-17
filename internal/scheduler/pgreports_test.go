@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FreshLabDev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/domain"
 )
 
 // These tests cover what the report store computes before it touches the

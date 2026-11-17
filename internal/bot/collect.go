@@ -8,9 +8,9 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/FreshLabDev/tg"
+	"github.com/asterfield-dev/tg"
 
-	"github.com/FreshLabDev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/domain"
 )
 
 // pySpace is Python's \s for str patterns: Go's \s is ASCII only and leaves out

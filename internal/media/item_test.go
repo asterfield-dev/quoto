@@ -5,7 +5,7 @@ package media
 import (
 	"testing"
 
-	"github.com/FreshLabDev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/domain"
 )
 
 // tests/test_media.py::test_source_from_media_item_reconstructs_retry_source and

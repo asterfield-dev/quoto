@@ -23,7 +23,7 @@ package window
 import (
 	"time"
 
-	"github.com/FreshLabDev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/domain"
 )
 
 // CatchUp is how long after its cutoff a group's day can still be started by

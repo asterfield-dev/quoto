@@ -6,7 +6,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/FreshLabDev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/domain"
 )
 
 // Store is what the pipeline needs from the database. *PGStore implements it;

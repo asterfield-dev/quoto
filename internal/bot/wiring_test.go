@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FreshLabDev/quoto/internal/telegram"
+	"github.com/asterfield-dev/quoto/internal/telegram"
 )
 
 // wired replaces the adapter fake with the real internal/telegram client over the

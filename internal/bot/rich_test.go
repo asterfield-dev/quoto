@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FreshLabDev/tg"
+	"github.com/asterfield-dev/tg"
 
-	"github.com/FreshLabDev/quoto/internal/agreement"
+	"github.com/asterfield-dev/quoto/internal/agreement"
 )
 
 func selfHosted(c *Config) { c.SelfHosted = true }

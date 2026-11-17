@@ -7,7 +7,7 @@ import (
 	"time"
 	_ "time/tzdata"
 
-	"github.com/FreshLabDev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/domain"
 )
 
 func mustLoc(t *testing.T, name string) *time.Location {

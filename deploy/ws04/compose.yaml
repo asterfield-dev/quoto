@@ -8,7 +8,7 @@
 # can say which commit it was. QUOTO_IMAGE must name an immutable GHCR
 # reference, digest for preference:
 #
-#   QUOTO_IMAGE=ghcr.io/freshlabdev/quoto@sha256:<digest>
+#   QUOTO_IMAGE=ghcr.io/asterfield-dev/quoto@sha256:<digest>
 #
 # The retired local `db` service is deliberately absent. It still exists in the
 # stack directory on the host as a rollback anchor for the 0.9.0 core

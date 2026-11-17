@@ -5,7 +5,7 @@ package media
 import (
 	"time"
 
-	"github.com/FreshLabDev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/domain"
 )
 
 // retryDelay is how long to wait after the n-th attempt: base * 2^(n-1), at most

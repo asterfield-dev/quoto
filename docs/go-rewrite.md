@@ -47,7 +47,7 @@ Go runtime, the embedded locales (16 files, 10 to 15 KB each) and `time/tzdata`
 
 ## 3. Package layout
 
-Module `github.com/FreshLabDev/quoto`, Go 1.26.10, `cmd/bot` plus `internal/`.
+Module `github.com/asterfield-dev/quoto`, Go 1.26.10, `cmd/bot` plus `internal/`.
 
 | Package | Does |
 |:--|:--|
@@ -484,7 +484,7 @@ is a degraded mode, not a dead bot).
 ## 9. Dependencies
 
 Allowed without comment: `github.com/jackc/pgx/v5` (v5.10.0), `golang.org/x/image`,
-`golang.org/x/sync`. Plus `github.com/FreshLabDev/tg` (v0.1.0 now; `replace`
+`golang.org/x/sync`. Plus `github.com/asterfield-dev/tg` (v0.1.0 now; `replace`
 below).
 
 | Module | Used for |
@@ -499,7 +499,7 @@ is enough), no JSON-schema, config or logging library. Time zones come from
 `import _ "time/tzdata"`, not from the image. Tests use the standard `testing`
 package with hand-written fakes.
 
-`go.mod` carries `replace github.com/FreshLabDev/tg => ../tg-quoto` until tg is
+`go.mod` carries `replace github.com/asterfield-dev/tg => ../tg-quoto` until tg is
 released. **Replace it with a tag before review.** The replace breaks
 `docker build` and GitHub Actions, which have no sibling directory; until the
 tag exists the image builds locally with

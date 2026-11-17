@@ -22,12 +22,12 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/FreshLabDev/tg"
+	"github.com/asterfield-dev/tg"
 	"golang.org/x/sync/semaphore"
 	"golang.org/x/sync/singleflight"
 
-	"github.com/FreshLabDev/quoto/internal/domain"
-	qlog "github.com/FreshLabDev/quoto/internal/log"
+	"github.com/asterfield-dev/quoto/internal/domain"
+	qlog "github.com/asterfield-dev/quoto/internal/log"
 )
 
 // Deps are the pieces the pipeline needs. Store is satisfied by *PGStore, Files

@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/FreshLabDev/quoto/internal/domain"
-	"github.com/FreshLabDev/quoto/internal/i18n"
-	"github.com/FreshLabDev/quoto/internal/scoring"
+	"github.com/asterfield-dev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/i18n"
+	"github.com/asterfield-dev/quoto/internal/scoring"
 )
 
 // staleError is the operation_error of a quote that sat in an in-progress status
