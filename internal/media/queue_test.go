@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FreshLabDev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/domain"
 )
 
 // waitFor spins until cond holds. It yields instead of sleeping, so a test that

@@ -3,7 +3,7 @@
 <p align="center"><strong>The quote of the day, out of whatever the chat wrote.</strong><br/>A Telegram group bot that reads the day and publishes one line worth keeping, or says the day had none.</p>
 
 <p align="center">
-  <a href="https://github.com/FreshLabDev/quoto/releases"><img src="https://img.shields.io/github/v/release/FreshLabDev/quoto?include_prereleases&sort=semver&style=for-the-badge&label=latest&labelColor=0f172a&color=3F3160" alt="latest version"></a>
+  <a href="https://github.com/asterfield-dev/quoto/releases"><img src="https://img.shields.io/github/v/release/asterfield-dev/quoto?include_prereleases&sort=semver&style=for-the-badge&label=latest&labelColor=0f172a&color=3F3160" alt="latest version"></a>
   <a href="go.mod"><img src="https://img.shields.io/badge/go-1.26-00ADD8?style=for-the-badge&logo=go&logoColor=white&labelColor=0f172a" alt="go version"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-334155?style=for-the-badge&labelColor=0f172a" alt="license"></a>
   <a href="https://t.me/quototbot"><img src="https://img.shields.io/badge/telegram-%40quototbot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0f172a" alt="telegram bot"></a>
@@ -235,7 +235,7 @@ with `govulncheck`, builds the image and validates both compose files.
 ---
 
 <p align="center">
-  <a href="https://github.com/FreshLabDev/quoto/releases">Releases</a> ·
+  <a href="https://github.com/asterfield-dev/quoto/releases">Releases</a> ·
   <a href="CHANGELOG.md">Changelog</a> ·
   <a href="LICENSE">Apache-2.0</a>
 </p>

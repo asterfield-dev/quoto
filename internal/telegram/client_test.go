@@ -16,9 +16,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FreshLabDev/tg"
+	"github.com/asterfield-dev/tg"
 
-	"github.com/FreshLabDev/quoto/internal/i18n"
+	"github.com/asterfield-dev/quoto/internal/i18n"
 )
 
 const testToken = "123456:SECRET-TOKEN-VALUE"

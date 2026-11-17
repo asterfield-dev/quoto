@@ -16,9 +16,9 @@ ARG DATE=unknown
 
 RUN CGO_ENABLED=0 go build -trimpath \
     -ldflags "-s -w \
-      -X github.com/FreshLabDev/quoto/internal/buildinfo.Version=${VERSION} \
-      -X github.com/FreshLabDev/quoto/internal/buildinfo.Commit=${COMMIT} \
-      -X github.com/FreshLabDev/quoto/internal/buildinfo.Date=${DATE}" \
+      -X github.com/asterfield-dev/quoto/internal/buildinfo.Version=${VERSION} \
+      -X github.com/asterfield-dev/quoto/internal/buildinfo.Commit=${COMMIT} \
+      -X github.com/asterfield-dev/quoto/internal/buildinfo.Date=${DATE}" \
     -o /out/quoto ./cmd/bot
 
 FROM alpine:3.24
@@ -44,7 +44,7 @@ ARG COMMIT=none
 LABEL org.opencontainers.image.title="Quoto" \
       org.opencontainers.image.version="${VERSION}" \
       org.opencontainers.image.revision="${COMMIT}" \
-      org.opencontainers.image.source="https://github.com/FreshLabDev/quoto" \
+      org.opencontainers.image.source="https://github.com/asterfield-dev/quoto" \
       org.opencontainers.image.licenses="Apache-2.0"
 
 # uid/gid 1000 own the host's ./logs directory that the stack mounts.

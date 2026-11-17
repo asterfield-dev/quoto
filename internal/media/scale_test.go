@@ -16,7 +16,7 @@ import (
 
 	"golang.org/x/image/draw"
 
-	"github.com/FreshLabDev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/domain"
 )
 
 // noisyPicture is a gradient with texture: smooth areas and sharp ones both.

@@ -7,7 +7,7 @@ import (
 	"testing"
 	"testing/fstest"
 
-	"github.com/FreshLabDev/quoto/migrations"
+	"github.com/asterfield-dev/quoto/migrations"
 )
 
 func TestMigrationFilesAreOrderedByVersion(t *testing.T) {

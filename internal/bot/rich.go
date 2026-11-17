@@ -7,9 +7,9 @@ import (
 	"errors"
 	"sync/atomic"
 
-	"github.com/FreshLabDev/tg"
+	"github.com/asterfield-dev/tg"
 
-	"github.com/FreshLabDev/quoto/internal/agreement"
+	"github.com/asterfield-dev/quoto/internal/agreement"
 )
 
 // Rich Markdown (Bot API 10.3) renders the agreement as a real document. Only a

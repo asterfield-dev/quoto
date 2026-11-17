@@ -6,7 +6,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/FreshLabDev/tg"
+	"github.com/asterfield-dev/tg"
 )
 
 // command is a parsed "/name@mention args".

@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FreshLabDev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/domain"
 )
 
 func cacheEntryRow(id int64, kind, uniqueID, fileID, sha, phash string) cacheRow {

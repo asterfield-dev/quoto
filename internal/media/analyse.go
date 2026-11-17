@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/FreshLabDev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/domain"
 )
 
 // analyse ports _process_media_source, steps 1 to 7 of phase0/02-media.md 1.3,

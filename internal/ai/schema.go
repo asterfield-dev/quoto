@@ -6,8 +6,8 @@ import (
 	"encoding/json"
 	"strings"
 
-	"github.com/FreshLabDev/quoto/internal/claude"
-	"github.com/FreshLabDev/quoto/internal/i18n"
+	"github.com/asterfield-dev/quoto/internal/claude"
+	"github.com/asterfield-dev/quoto/internal/i18n"
 )
 
 // The response schemas are raw JSON, not maps: the model writes its fields in

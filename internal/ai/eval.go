@@ -11,9 +11,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/FreshLabDev/quoto/internal/claude"
-	"github.com/FreshLabDev/quoto/internal/domain"
-	"github.com/FreshLabDev/quoto/internal/openrouter"
+	"github.com/asterfield-dev/quoto/internal/claude"
+	"github.com/asterfield-dev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/openrouter"
 )
 
 // The texts the scheduler shows an operator when a run fails. They are the

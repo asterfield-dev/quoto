@@ -15,8 +15,8 @@ import (
 	"time"
 	_ "time/tzdata"
 
-	"github.com/FreshLabDev/quoto/internal/deeplink"
-	"github.com/FreshLabDev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/deeplink"
+	"github.com/asterfield-dev/quoto/internal/domain"
 )
 
 // Errors the fake Telegram understands: the scheduler asks the Sender whether a

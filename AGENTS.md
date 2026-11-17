@@ -21,7 +21,7 @@ default, and production-minded.
   catalog check; `alembic_version` is left alone until a stable Go release has
   run. Column drops only in a late migration, never in the release that
   introduces Go.
-- The Telegram client is `github.com/FreshLabDev/tg`. What only Quoto needs
+- The Telegram client is `github.com/asterfield-dev/tg`. What only Quoto needs
   (silent send, pin, outcome classification) lives in `internal/telegram`.
 - AI scoring goes to Claude through the Anthropic Messages API (`internal/claude`,
   plain `net/http`), then down the OpenRouter chain when Claude fails. Claude

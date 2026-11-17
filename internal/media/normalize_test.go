@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FreshLabDev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/domain"
 )
 
 func decodeFile(t testing.TB, path string) (image.Image, string) {

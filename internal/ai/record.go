@@ -6,9 +6,9 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/FreshLabDev/quoto/internal/claude"
-	"github.com/FreshLabDev/quoto/internal/domain"
-	"github.com/FreshLabDev/quoto/internal/openrouter"
+	"github.com/asterfield-dev/quoto/internal/claude"
+	"github.com/asterfield-dev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/openrouter"
 )
 
 // The audit records. The keys are the Python ones (doc section 6, "Audit log");

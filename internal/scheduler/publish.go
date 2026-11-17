@@ -6,8 +6,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/FreshLabDev/quoto/internal/domain"
-	"github.com/FreshLabDev/quoto/internal/scoring"
+	"github.com/asterfield-dev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/scoring"
 )
 
 // publishQuote posts the quote and records what happened. It reports whether the

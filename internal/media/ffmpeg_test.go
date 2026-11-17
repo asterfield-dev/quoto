@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FreshLabDev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/domain"
 )
 
 // The tests in this file run the real ffmpeg and ffprobe on clips generated with

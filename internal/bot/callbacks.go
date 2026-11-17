@@ -9,12 +9,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/FreshLabDev/tg"
+	"github.com/asterfield-dev/tg"
 
-	"github.com/FreshLabDev/quoto/internal/agreement"
-	"github.com/FreshLabDev/quoto/internal/domain"
-	"github.com/FreshLabDev/quoto/internal/i18n"
-	"github.com/FreshLabDev/quoto/internal/menu"
+	"github.com/asterfield-dev/quoto/internal/agreement"
+	"github.com/asterfield-dev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/i18n"
+	"github.com/asterfield-dev/quoto/internal/menu"
 )
 
 // answer is how a button press is acknowledged: nothing, a short toast, or a
@@ -55,6 +55,12 @@ func (b *Bot) respond(ctx context.Context, id string, a answer) {
 // press stops spinning and the panel stays as it is. Python left the spinner
 // running for a prefix it did not know.
 func (b *Bot) onCallback(ctx context.Context, cq *tg.CallbackQuery) error {
+	// A press under an inline message has no message. Quoto sends none, so
+	// such a press is not one of its panels: it only stops spinning.
+	if cq.Message == nil {
+		b.respond(ctx, cq.ID, answer{})
+		return nil
+	}
 	var a answer
 	var err error
 	switch {
@@ -73,7 +79,9 @@ func (b *Bot) onCallback(ctx context.Context, cq *tg.CallbackQuery) error {
 
 // editable: can the panel the press came from be edited? A message too old for
 // the bot to see arrives without a date.
-func editable(m tg.Message) bool { return m.Date != 0 && m.MessageID != 0 && m.Chat.ID != 0 }
+func editable(m *tg.Message) bool {
+	return m != nil && m.Date != 0 && m.MessageID != 0 && m.Chat.ID != 0
+}
 
 // editPanel replaces the open panel with an HTML screen. A panel that cannot be
 // edited, or an edit Telegram refuses, is logged and the press is answered all the

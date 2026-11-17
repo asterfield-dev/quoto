@@ -18,9 +18,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/FreshLabDev/quoto/internal/deeplink"
-	"github.com/FreshLabDev/quoto/internal/domain"
-	"github.com/FreshLabDev/quoto/internal/window"
+	"github.com/asterfield-dev/quoto/internal/deeplink"
+	"github.com/asterfield-dev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/window"
 )
 
 // Delays and timeouts. Variables, so that tests can shorten them.

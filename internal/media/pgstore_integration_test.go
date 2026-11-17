@@ -13,9 +13,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FreshLabDev/quoto/internal/db"
-	"github.com/FreshLabDev/quoto/internal/db/dbtest"
-	"github.com/FreshLabDev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/db"
+	"github.com/asterfield-dev/quoto/internal/db/dbtest"
+	"github.com/asterfield-dev/quoto/internal/domain"
 )
 
 // These tests run PGStore against PostgreSQL 17 with the real migrations; the

@@ -12,9 +12,9 @@ import (
 
 	"github.com/jackc/pgx/v5/pgxpool"
 
-	"github.com/FreshLabDev/quoto/internal/db"
-	"github.com/FreshLabDev/quoto/internal/db/dbtest"
-	"github.com/FreshLabDev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/db"
+	"github.com/asterfield-dev/quoto/internal/db/dbtest"
+	"github.com/asterfield-dev/quoto/internal/domain"
 )
 
 var (

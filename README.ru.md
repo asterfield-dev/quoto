@@ -3,7 +3,7 @@
 <p align="center"><strong>Цитата дня из того, что написали в чате.</strong><br/>Бот для групп в Telegram: читает день и публикует одну фразу, которую стоит сохранить, или честно говорит, что таких не было.</p>
 
 <p align="center">
-  <a href="https://github.com/FreshLabDev/quoto/releases"><img src="https://img.shields.io/github/v/release/FreshLabDev/quoto?include_prereleases&sort=semver&style=for-the-badge&label=latest&labelColor=0f172a&color=3F3160" alt="последняя версия"></a>
+  <a href="https://github.com/asterfield-dev/quoto/releases"><img src="https://img.shields.io/github/v/release/asterfield-dev/quoto?include_prereleases&sort=semver&style=for-the-badge&label=latest&labelColor=0f172a&color=3F3160" alt="последняя версия"></a>
   <a href="go.mod"><img src="https://img.shields.io/badge/go-1.26-00ADD8?style=for-the-badge&logo=go&logoColor=white&labelColor=0f172a" alt="версия go"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-334155?style=for-the-badge&labelColor=0f172a" alt="лицензия"></a>
   <a href="https://t.me/quototbot"><img src="https://img.shields.io/badge/telegram-%40quototbot-26A5E4?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0f172a" alt="бот в telegram"></a>
@@ -236,7 +236,7 @@ CI запускает то же на `postgres:17-alpine`, ищет извест
 ---
 
 <p align="center">
-  <a href="https://github.com/FreshLabDev/quoto/releases">Релизы</a> ·
+  <a href="https://github.com/asterfield-dev/quoto/releases">Релизы</a> ·
   <a href="CHANGELOG.md">Changelog</a> ·
   <a href="LICENSE">Apache-2.0</a>
 </p>

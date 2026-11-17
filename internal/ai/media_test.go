@@ -13,9 +13,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FreshLabDev/quoto/internal/claude"
-	"github.com/FreshLabDev/quoto/internal/domain"
-	"github.com/FreshLabDev/quoto/internal/openrouter"
+	"github.com/asterfield-dev/quoto/internal/claude"
+	"github.com/asterfield-dev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/openrouter"
 )
 
 // mediaFile writes a file of n bytes that stands in for a normalised one.

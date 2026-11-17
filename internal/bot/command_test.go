@@ -6,9 +6,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/FreshLabDev/tg"
+	"github.com/asterfield-dev/tg"
 
-	"github.com/FreshLabDev/quoto/internal/i18n"
+	"github.com/asterfield-dev/quoto/internal/i18n"
 )
 
 // aiogram's Command filter, as ported in parseCommand: tests/ has no Python

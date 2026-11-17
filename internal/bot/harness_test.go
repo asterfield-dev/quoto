@@ -17,11 +17,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/FreshLabDev/tg"
+	"github.com/asterfield-dev/tg"
 
-	"github.com/FreshLabDev/quoto/internal/deeplink"
-	"github.com/FreshLabDev/quoto/internal/domain"
-	"github.com/FreshLabDev/quoto/internal/telegram"
+	"github.com/asterfield-dev/quoto/internal/deeplink"
+	"github.com/asterfield-dev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/telegram"
 )
 
 const (
@@ -801,7 +801,7 @@ func (h *harness) message(m tg.Message) { h.t.Helper(); h.deliver(tg.Update{Upda
 // press delivers a button press from user on the panel message.
 func (h *harness) press(user tg.User, panel tg.Message, data string) {
 	h.t.Helper()
-	h.deliver(tg.Update{UpdateID: 1, Callback: &tg.CallbackQuery{ID: "cb", From: user, Message: panel, Data: data}})
+	h.deliver(tg.Update{UpdateID: 1, Callback: &tg.CallbackQuery{ID: "cb", From: user, Message: &panel, Data: data}})
 }
 
 // panelMessage is a group panel (message 50) as a button press carries it.

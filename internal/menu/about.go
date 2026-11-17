@@ -5,8 +5,8 @@ package menu
 import (
 	"strings"
 
-	"github.com/FreshLabDev/quoto/internal/buildinfo"
-	"github.com/FreshLabDev/quoto/internal/i18n"
+	"github.com/asterfield-dev/quoto/internal/buildinfo"
+	"github.com/asterfield-dev/quoto/internal/i18n"
 )
 
 // scoring names the providers on the About card (F13): Claude scores the day

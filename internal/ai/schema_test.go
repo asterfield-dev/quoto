@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FreshLabDev/quoto/internal/i18n"
+	"github.com/asterfield-dev/quoto/internal/i18n"
 )
 
 // doc section 6 "Python semantics" (key order in schemas): what OpenRouter gets

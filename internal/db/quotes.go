@@ -10,7 +10,7 @@ import (
 
 	"github.com/jackc/pgx/v5"
 
-	"github.com/FreshLabDev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/domain"
 )
 
 const quoteColumns = `q.id, q.group_id, q.author_id, q.text, q.score, q.reaction_score, q.ai_score, q.length_score,

@@ -8,7 +8,7 @@ import (
 
 	"github.com/jackc/pgx/v5"
 
-	"github.com/FreshLabDev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/domain"
 )
 
 const groupColumns = `g.chat_id, g.is_active, g.quote_hour, g.quote_minute, g.min_messages,

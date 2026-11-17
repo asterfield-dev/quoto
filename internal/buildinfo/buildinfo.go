@@ -5,7 +5,7 @@
 // value is written once.
 package buildinfo
 
-// Set by -ldflags "-X github.com/FreshLabDev/quoto/internal/buildinfo.Version=..."
+// Set by -ldflags "-X github.com/asterfield-dev/quoto/internal/buildinfo.Version=..."
 // in the Dockerfile; "dev" marks a build made by hand.
 var (
 	Version = "dev"
@@ -17,7 +17,7 @@ const (
 	Name       = "Quoto"
 	License    = "Apache-2.0"
 	Operator   = "Asterfield"
-	Repository = "https://github.com/FreshLabDev/quoto"
+	Repository = "https://github.com/asterfield-dev/quoto"
 	// Contact is the Telegram handle of the operator, shown in About and in the
 	// user agreement.
 	Contact    = "@amtiyo"

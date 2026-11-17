@@ -8,11 +8,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/FreshLabDev/tg"
+	"github.com/asterfield-dev/tg"
 
-	"github.com/FreshLabDev/quoto/internal/buildinfo"
-	"github.com/FreshLabDev/quoto/internal/domain"
-	"github.com/FreshLabDev/quoto/internal/i18n"
+	"github.com/asterfield-dev/quoto/internal/buildinfo"
+	"github.com/asterfield-dev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/i18n"
 )
 
 // A panel is title, hint, quote: a bold name, optionally the version beside it,
@@ -457,7 +457,7 @@ func TestAboutCard(t *testing.T) {
 		for _, want := range []string{
 			"<b>Quoto</b> · <i>v1.2.3</i>",
 			i18n.T(lang, "about.tagline"),
-			`<a href="` + buildinfo.Repository + `">FreshLabDev/quoto</a>`,
+			`<a href="` + buildinfo.Repository + `">asterfield-dev/quoto</a>`,
 			buildinfo.License,
 			`<a href="` + buildinfo.ContactURL + `">` + buildinfo.Contact + `</a>`,
 			"<blockquote>",

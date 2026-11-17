@@ -3,7 +3,7 @@
 // Package telegram is the part of Quoto's Bot API traffic that only Quoto does:
 // silent sends, copyMessage, pinChatMessage, getChat, developer alerts, and the
 // questions the scheduler asks about a failed send ("may it have been delivered
-// anyway?", "is the chat gone?"). Everything else goes through github.com/FreshLabDev/tg
+// anyway?", "is the chat gone?"). Everything else goes through github.com/asterfield-dev/tg
 // directly. Client implements domain.Sender.
 //
 // Quoto's Python bot set disable_notification and a disabled link preview as
@@ -22,11 +22,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/FreshLabDev/tg"
+	"github.com/asterfield-dev/tg"
 
-	"github.com/FreshLabDev/quoto/internal/agreement"
-	"github.com/FreshLabDev/quoto/internal/domain"
-	"github.com/FreshLabDev/quoto/internal/i18n"
+	"github.com/asterfield-dev/quoto/internal/agreement"
+	"github.com/asterfield-dev/quoto/internal/domain"
+	"github.com/asterfield-dev/quoto/internal/i18n"
 )
 
 const (

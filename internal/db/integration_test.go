@@ -18,7 +18,7 @@ import (
 
 	"github.com/jackc/pgx/v5/pgxpool"
 
-	"github.com/FreshLabDev/quoto/migrations"
+	"github.com/asterfield-dev/quoto/migrations"
 )
 
 func testURL(t *testing.T) string {

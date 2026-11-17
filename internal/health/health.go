@@ -13,7 +13,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/FreshLabDev/quoto/internal/buildinfo"
+	"github.com/asterfield-dev/quoto/internal/buildinfo"
 )
 
 // Check is one named condition.
